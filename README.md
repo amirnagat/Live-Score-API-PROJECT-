@@ -14,6 +14,6 @@ watch transfers of recently transferred players, used with API and, BOOTSTRAP.
 
 ## Wareframe & Design
 * wareframe
-![Wireframe - 1](./final_web_JS/Screenshots/wareframeScreenShot.png)
+* ![Wireframe - 1](./final_web_JS/Screenshots/wareframeScreenShot.png)
 * logo
-![Wireframe - 1](./final_web_JS/Screenshots/logoScreenShot.png)
+* ![Wireframe - 1](./final_web_JS/Screenshots/logoScreenShot.png)
