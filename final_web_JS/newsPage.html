@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./style/newsPage.css">
+</head>
+<body class="bg-black">
+    <nav class="navbar navbar-expand-lg bg-black sticky-top">
+        <div class="container-fluid">
+            <img class="w-25" src="./image/video/צילום_מסך_2022-07-04_221634-removebg-preview.png" alt="">
+          <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+          <button class="navbar-toggler bg-warning" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon bg-warning"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-warning" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  text-warning" href="#">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  text-warning" href="./transferPage.html">Transfer</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-warning" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Abou Us
+                </a>
+                <ul class="dropdown-menu bg-black" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item text-warning" href="mailto:nagat1700@gmail.com">Send Mail to Ceo</a></li>
+                    <a class="dropdown-item text-warning" href="tel:0526079339">Click to Call Us</a>
+
+                  <li><hr class="dropdown-divider text-warning"></li>
+                </ul>
+              </li>
+          
+            </ul>
+            <form class="d-flex" role="search">
+              <a class="pe-5 text-warning text-decoration-none align-baseline" href="./loginPage.html">SignUp</a>
+
+            </form>
+          </div>
+        </div>
+    </nav>   
+<!--end Nav-->
+
+<!--start Header  -->
+    <header class="header-container">
+        <!-- The soccer video with news title in it  -->
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+          <source src="./image/video/kick_off (Original) (1).mp4" type="video/mp4">
+        </video>
+    </header>
+<!-- end Header -->
+
+<!-- news scorll   -->
+     <marquee class="news-scroll  border-bottom border-warning" behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();"><a class="text-warning" href="#">Hi everyOne welcome to the best score app in the world </a> <span class="dot"></span> <a class="text-warning" href="#">You see some Bugs or sum ? if yes let Us Know in the aboutUs Button in the top of the website and conact us by phone or email</a> <span></span> 
+     </marquee>
+  
+<!-- start section two title -->
+     <h1 class="text-warning align-self-center text-center mt-5 fw-bold">The latest articles in the</h1>
+     <h1 class="text-warning align-self-center text-center fw-bold">world of sports</h1>
+
+<!-- all news posts -->
+    <div class="allNews d-flex flex-wrap justify-content-center text-center mt-5 " id="allNews">
+
+    </div>
+
+
+ 
+
+
+<!--start Footer -->
+<footer class="bg-black text-center text-white mt-5 border-top border-warning">
+  <!-- Grid container -->
+  <div class=" p-4">
+    <!-- Section: Social media -->
+    <section class="socialMedia text-center mb-4 d-flex justify-content-center ">
+      <!-- Facebook -->
+      <a class="btn btn-outline-light btn-floating m-1 " href="https://www.facebook.com/amir.nagat/" target="_blank" role="button"
+        ><i class="fab fa-facebook-f text-primary"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-twitter text-info"></i
+      ></a>
+
+      <!-- Google -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-google text-success"></i
+      ></a>
+
+
+      <!-- Linkedin -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/amir-nagat-394387233" role="button" target="_blank"
+        ><i class="fab fa-linkedin-in text-primary"></i
+      ></a>
+
+      <!-- Github -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/amirnagat" target="_blank" role="button"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->      
+<div class="row d-flex justify-content-between">         
+   
+   <!-- left side footer -->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0  border-3 mt-2">
+            <img class="w-75" src="./image/video/צילום_מסך_2022-07-04_221634-removebg-preview.png" alt="">
+        </div>
+     
+   <!--middle column-->
+        <div class="middle-footer col-lg-3 col-md-4 mb-4 mb-md-0 border-end border-start border-warning border-3 mt-2">
+          <h5 class="text-uppercase">Links</h5>
+          <ul class="list-unstyled mb-0  ">
+            <li class="text-decoration-none list-unstyled mb-4"><a class="text-warning text-decoration-none" href="./index.html">Home</a></li>
+            <li class="text-decoration-none list-unstyled mb-4"><a class="text-warning text-decoration-none" href="./newsPage.html">News</a></li>
+            <li class="text-decoration-none list-unstyled mb-4"><a class="text-warning text-decoration-none" href="./transferPage.html">Transfer</a></li>
+
+            <li class="text-decoration-none list-unstyled "><a class="text-warning text-decoration-none" href="#">About Us</a></li>
+          </ul>
+        </div>
+   <!-- right side footer -->
+      <div class= "right-side-footer col-lg-3 col-12 col-md-4 align-self-center">
+            <p class="text-warning ">To talk to with the site creator, scan the code.</p>
+            <i class="fa-solid fa-arrow-right text-warning"></i>
+            <img class="img-fluid w-25" src="./image/video/qrInsta.png" alt="">
+            <i class="fa-solid fa-arrow-left text-warning"></i>
+      </div>
+</footer>
+<!-- end Footer -->
+
+
+   
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<script src="./js/newsPage.js"></script>
+</html>
