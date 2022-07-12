@@ -13,4 +13,4 @@ watch transfers of recently transferred players, used with API and, BOOTSTRAP.
 * Making the site that would do functional things was challenging but I succeeded.
 
 ## Wareframe & Design
-![Wireframe - 1](./C:/Users/אמיר/Desktop/final_web_JS/Screenshots/wareframeScreenShot.png)
+![Wireframe - 1](./Screenshots\wareframeScreenShot.png)
