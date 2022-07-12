@@ -24,4 +24,4 @@ watch transfers of recently transferred players, used with API and, BOOTSTRAP.
 * Transfer Page
   ![Wireframe - 1](./final_web_JS/Screenshots/TransferPageScreenShot.png)
 * Login Page 
-  ![Wireframe - 1](./final_web_JS/Screenshots/צילום מסך 2022-07-11 102723.png)
+  ![Wireframe - 1](./final_web_JS/Screenshots/LoginPage.png)
