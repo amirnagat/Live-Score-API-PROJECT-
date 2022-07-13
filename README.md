@@ -7,6 +7,9 @@ watch transfers of recently transferred players, used with API and, BOOTSTRAP.
 ## Project Flow
 ### What was goood:
 * the design and making of the code responsive was very enjoyable and fun.
+* make a logo.
+* make a video with video maker.
+
 
 ### Difficulties:
 * Search good API.
