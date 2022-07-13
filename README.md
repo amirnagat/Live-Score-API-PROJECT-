@@ -13,6 +13,7 @@ watch transfers of recently transferred players, used with API and, BOOTSTRAP.
 
 ### Difficulties:
 * Search good API.
+* oop
 * Making the site that would do functional things was challenging but I succeeded.
 
 ## Wareframe & Design
